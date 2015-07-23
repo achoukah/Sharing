@@ -1,0 +1,67 @@
+  // 1 COLUMN
+    @media only screen
+    and (max-width : 619px) {
+
+
+  .sharingBlock {
+    display: flex;
+    flex-direction: column;
+    
+    .sharing {
+      width: 100% !important;
+      clear: both;
+      background: rebeccapurple;
+      
+
+      .sharingHandlers {
+        
+        .articleSharingBlock {
+
+          .SharingOptions {
+            
+
+            .sharingButton {
+              width: 145px;
+              height: 44px;
+
+              .sharingItem {
+
+                .sharingicon {
+
+                  &.sprite {
+
+                    &.facebook,
+                    &.twitter {
+
+                    }
+                    &.facebook {
+                      
+                    }
+                    &.twitter{
+                      
+                    }
+                    
+                  }
+                }
+              }
+
+              &:hover {
+                
+                .sharingItem {
+
+                  .sprite {
+                    &.facebook,
+                    &.twitter,
+                    &.gplus {
+                      
+                    }  
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

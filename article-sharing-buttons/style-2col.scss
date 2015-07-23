@@ -1,0 +1,79 @@
+  // 2 COLUMNS
+    @media only screen
+    and (min-width : 620px)
+    and (max-width : 1000px) {
+
+
+  .sharingBlock {
+    position: relative;
+    padding-top: 7rem;
+    // padding: 0 1em;
+    
+    .sharing {
+      width: 610px !important;
+      clear: both;
+      position: absolute;
+      top: -2rem;
+      
+
+      .sharingHandlers {
+        // width: 100% !important;
+        
+        .articleSharingBlock {
+
+          .SharingOptions {
+            justify-content: space-around;
+            
+
+            .sharingButton {
+              width: 145px;
+              height: 44px;
+
+              .sharingItem {
+                width: 145px;
+                height: 44px;
+                margin: 0;
+                // margin: 50%;
+                color: $wh-lt;
+                transform: translate(0,0);
+
+                .sharingicon {
+                  width: 100%;
+                  height: 44px;
+
+                  &.sprite {
+
+                    &.facebook,
+                    &.twitter {
+
+                    }
+                    &.facebook {
+                      
+                    }
+                    &.twitter{
+                      
+                    }
+                    
+                  }
+                }
+              }
+
+              &:hover {
+                
+                .sharingItem {
+
+                  .sprite {
+                    &.facebook,
+                    &.twitter {
+                      
+                    }  
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

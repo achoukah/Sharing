@@ -62,38 +62,56 @@
             width: 145px;
             height: 145px;
             transition: all .3s ease-out;
+            // box-shadow: inset 0 0 $bk-tr-1;
+            transition: all .2s ease-in-out;
 
             .sharingItem {
-              width: 22px;
-              height: 22px;
-              margin: 0;
+              width: 48px;
+              height: 48px;
+              // margin: 0;
               margin: 50%;
               color: $wh-lt;
-              transform: translate(-11px,-11px);
+              transform: translate(-24px,-24px);
+
+              // background-color: red;
+
+
+
 
               .title {
                 display: none;
               }
               .sharingicon {
+                width: 48px;
+                height: 48px;
+                // border: thin solid rebeccapurple;
+                margin: 0;
+                padding: 0;
+
+
 
                 &.sprite {
-                  background-image: url(http://img.thesun.co.uk/aidemitlum/archive/02342/sharing-sprite_2342895a.png);
-                  background-position-x: 0;
 
                   &.facebook,
-                  &.twitter,
-                  &.gplus {
+                  &.twitter {
                     transition: all .4s ease-out;
+
                   }
                   &.facebook {
-                    background-position: 0 0;
+                    background: url(http://img.thesun.co.uk/aidemitlum/archive/02424/icon-facebook-0_2424146a.png);
+                    background-image: url(http://img.thesun.co.uk/aidemitlum/archive/02424/icon-facebook-0_2424144a.svg), none;
+                    background-repeat: no-repeat;
+                    background-position: 50%;
                   }
                   &.twitter{
-                    background-position: 0 -22px;
+                    background: url(http://img.thesun.co.uk/aidemitlum/archive/02424/icon-twitter-0_2424145a.png);
+                    background-image: url(http://img.thesun.co.uk/aidemitlum/archive/02424/icon-twitter-0_2424143a.svg), none;
+                    background-repeat: no-repeat;
+                    background-position: 50%;
                   }
-                  &.gplus {
-                    background-position: 0 -44px;
-                  }
+                  // &.gplus {
+                  //   background-position: 0 -48px;
+                  // }
                 }
                               }
 
@@ -102,6 +120,7 @@
             }
 
             &:hover {
+              // box-shadow: inset 0 -148px $bk-tr-4;
               
               .sharingItem {
 
@@ -119,16 +138,14 @@
               background-color: $fb;
               
               &:hover {
-                background: darken($fb,10);
+                background: lighten($fb,10);
               }
-
-              
             }
             &.twitter {
               background-color: $tw;
 
               &:hover {
-                background: darken($tw,10);
+                background: lighten($tw,10);
               }
             }
             &.google {
@@ -153,3 +170,7 @@
     }
   }
 }
+
+@import 'style-mobile';
+@import 'style-1col';
+@import 'style-2col';
