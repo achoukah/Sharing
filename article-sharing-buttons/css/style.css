@@ -1,0 +1,89 @@
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton {
+  color: white;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 140px;
+  height: 140px;
+  transition: all .3s ease-out;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton .sharingItem {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  margin: 50%;
+  color: white;
+  transform: translate(-11px, -11px);
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton .sharingItem .title {
+  display: none;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton .sharingItem .sharingicon.sprite {
+  background-image: url(http://img.thesun.co.uk/aidemitlum/archive/02342/sharing-sprite_2342895a.png);
+  background-position-x: 0;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton .sharingItem .sharingicon.sprite.facebook, .sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton .sharingItem .sharingicon.sprite.twitter, .sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton .sharingItem .sharingicon.sprite.gplus {
+  transition: all .4s ease-out;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton .sharingItem .sharingicon.sprite.facebook {
+  background-position: 0 0;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton .sharingItem .sharingicon.sprite.twitter {
+  background-position: 0 -22px;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton .sharingItem .sharingicon.sprite.gplus {
+  background-position: 0 -44px;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton:hover .sharingItem .sprite.facebook, .sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton:hover .sharingItem .sprite.twitter, .sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton:hover .sharingItem .sprite.gplus {
+  opacity: 1;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton.facebook {
+  background-color: #3b5a94;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton.facebook:hover {
+  background: #2c4470;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton.twitter {
+  background-color: #00c7f5;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton.twitter:hover {
+  background: #009ec2;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton.google {
+  background-color: #d8473c;
+  display: none;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton.google:hover {
+  background: #bb3026;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .showMore {
+  display: none;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .expander {
+  display: none;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .expander .SharingOptions {
+  flex-direction: column;
+  height: 80px;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .expander .SharingOptions .sharingButton {
+  width: 48px;
+  height: 48px;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .expander .SharingOptions .sharingButton .pintrest {
+  background-position: 0 -66px;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .expander .SharingOptions .sharingButton .email {
+  background-position: 0 -88px;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .expander .SharingOptions .sharingButton.smallOnly {
+  display: none;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock .expander .SharingOptions .sharingButton .sharingitem .title {
+  display: block !important;
+}

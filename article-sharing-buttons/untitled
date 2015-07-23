@@ -1,0 +1,12 @@
+
+SharingOptions largeOnly
+  sharingButton facebook
+    sprite facebook sharingicon
+
+
+
+    .sharingBlock
+      .additionalColItem.sharing 
+        .sharingButton.twitter 
+          .sharingItem 
+            .sharingicon
