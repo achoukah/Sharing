@@ -1,3 +1,19 @@
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock.closed .SharingOptions .sharingButton {
+  width: 92px;
+  height: 92px;
+  position: relative;
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock.closed .SharingOptions .sharingButton .sharingItem {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  margin: 50%;
+  color: white;
+  transform: translate(-11px, -11px);
+}
+.sharingBlock .sharing .sharingHandlers .articleSharingBlock.closed .SharingOptions .sharingButton .sharingItem .title {
+  display: none;
+}
 .sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions {
   display: flex;
   flex-wrap: nowrap;

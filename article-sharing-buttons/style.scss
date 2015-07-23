@@ -49,36 +49,36 @@
       
       .articleSharingBlock {
 
-        // &.closed {
+        &.closed {
 
-        //   .SharingOptions {
+          .SharingOptions {
 
-        //     .sharingButton {
-        //       width: 92px;
-        //       height: 92px;
-        //       position: relative;
+            .sharingButton {
+              width: 92px;
+              height: 92px;
+              position: relative;
 
-        //       .sharingItem {
-        //         width: 22px;
-        //         height: 22px;
-        //         margin: 0;
-        //         margin: 50%;
-        //         color: $wh-lt;
-        //         transform: translate(-11px,-11px);
+              .sharingItem {
+                width: 22px;
+                height: 22px;
+                margin: 0;
+                margin: 50%;
+                color: $wh-lt;
+                transform: translate(-11px,-11px);
 
-        //         .title {
-        //           display: none;
-        //         }
+                .title {
+                  display: none;
+                }
 
-        //         .sprite {
+                .sprite {
                   
-        //         }
-        //       }
+                }
+              }
 
               
-        //     }
-        //   }
-        // }
+            }
+          }
+        }
         .SharingOptions {
           display: flex;
           flex-wrap: nowrap;
