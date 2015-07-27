@@ -3,58 +3,86 @@
     and (max-width : 619px) {
 
 
-  .sharingBlock {
-    display: flex;
-    flex-direction: column;
-    
-    .sharing {
-      width: 100% !important;
-      clear: both;
-      background: rebeccapurple;
-      
+  .articlePage {
+  
+    .additionalCol {
+      // border: thin solid rebeccapurple;
 
-      .sharingHandlers {
+      .additionalColItem {
+        // background: green;
+      }
+      .sharingBlock {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+
+        .authorDetails {
+          width: 100%;
+
+          .authorName {
+            text-align: center;
+            width: 300px;
+            padding: 4px 0;
+          }
+        }
         
-        .articleSharingBlock {
+        .sharing {
+          width: 100% !important;
+          clear: both;
+          
 
-          .SharingOptions {
+          .sharingHandlers {
             
+            .articleSharingBlock {
 
-            .sharingButton {
-              width: 145px;
-              height: 44px;
+              .SharingOptions {
+                margin: 1em 0 0 0;
 
-              .sharingItem {
+                .sharingButton {
+                  width: 144px;
+                  height: 52px;
 
-                .sharingicon {
-
-                  &.sprite {
-
-                    &.facebook,
-                    &.twitter {
-
-                    }
-                    &.facebook {
-                      
-                    }
-                    &.twitter{
-                      
-                    }
+                  .sharingItem {
+                    left: 50%;
+                    margin-left: -22px;
+                    top: 50%;
+                    margin-top: -22px;
                     
-                  }
-                }
-              }
 
-              &:hover {
-                
-                .sharingItem {
-
-                  .sprite {
-                    &.facebook,
-                    &.twitter,
-                    &.gplus {
+                    .sharingicon {
+                      width: 44px;
+                      height: 44px;
                       
-                    }  
+
+                      &.sprite {
+
+                        &.facebook,
+                        &.twitter {
+
+                        }
+                        &.facebook {
+                          
+                        }
+                        &.twitter{
+                          
+                        }
+                        
+                      }
+                    }
+                  }
+
+                  &:hover {
+                    
+                    .sharingItem {
+
+                      .sprite {
+                        &.facebook,
+                        &.twitter,
+                        &.gplus {
+                          
+                        }  
+                      }
+                    }
                   }
                 }
               }
