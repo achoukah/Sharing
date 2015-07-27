@@ -1,3 +1,6 @@
+.sharingBlock * {
+  box-sizing: border-box;
+}
 .sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions {
   display: flex;
   flex-wrap: nowrap;
@@ -75,16 +78,29 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .sharingBlock {
-    display: flex;
-    flex-direction: column;
+    display: block !important;
+    text-align: center;
+  }
+  .sharingBlock .authorDetails {
+    text-align: center;
+    width: 300px;
+    padding: 4px;
+  }
+  .sharingBlock .authorDetails .authorName {
+    text-align: center;
+    width: 300px;
   }
   .sharingBlock .sharing {
-    width: 100% !important;
+    width: 300px !important;
     clear: both;
   }
   .sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton {
-    width: 145px;
+    width: 144px;
     height: 44px;
+  }
+  .sharingBlock .sharing .sharingHandlers .articleSharingBlock .SharingOptions .sharingButton .sharingItem {
+    margin: 50%;
+    transform: translate(-72px, -22px);
   }
 }
 @media only screen and (max-width: 619px) {
