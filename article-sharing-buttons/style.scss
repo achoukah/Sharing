@@ -46,9 +46,9 @@
     }
 
     .sharingBlock {
-
+      box-sizing: border-box;
       * {
-        box-sizing: border-box;
+        box-sizing: inherit;
       }
       
       .sharing {
@@ -154,7 +154,7 @@
                 }
                 &.google {
                   background-color: $go;
-                  // display: none;
+                  display: none;
 
                   &:hover {
                     background: darken($go,10);

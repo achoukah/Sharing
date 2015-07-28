@@ -1,11 +1,7 @@
-  // 2 COLUMNS
-    @media only screen
-    and (min-width : 620px)
-    and (max-width : 1000px) {
-
-
+@media only screen
+and (min-width:620px)
+and (max-width:1000px) {
   .articlePage {
-  
     .additionalCol {
       // border: thin solid rebeccapurple;
 
@@ -14,8 +10,9 @@
       }
       .sharingBlock {
         display: block;
-        flex-direction: column;
+        // flex-direction: column;
         text-align: center;
+        padding-top: 100px;
 
         .authorDetails {
           width: 100%;
@@ -26,16 +23,14 @@
             padding: 4px 0;
           }
         }
-        
         .sharing {
           width: 100% !important;
           clear: both;
-          
+          position: absolute;
+          top: 0;
 
           .sharingHandlers {
-            
             .articleSharingBlock {
-
               .SharingOptions {
                 margin: 1em 0 0 0;
 
@@ -48,43 +43,22 @@
                     margin-left: -22px;
                     top: 50%;
                     margin-top: -22px;
-                    
 
                     .sharingicon {
                       width: 44px;
                       height: 44px;
-                      
 
                       &.sprite {
-
-                        &.facebook,
-                        &.twitter {
-
+                        &.facebook, &.twitter {
                         }
                         &.facebook {
-                          
                         }
-                        &.twitter{
-                          
+                        &.twitter {
                         }
-                        
                       }
                     }
                   }
-
-                  &:hover {
-                    
-                    .sharingItem {
-
-                      .sprite {
-                        &.facebook,
-                        &.twitter,
-                        &.gplus {
-                          
-                        }  
-                      }
-                    }
-                  }
+                  
                 }
               }
             }
@@ -93,4 +67,5 @@
       }
     }
   }
+
 }
